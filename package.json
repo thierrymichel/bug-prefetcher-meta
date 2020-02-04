@@ -5,11 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "vapper dev --vueCliMode serve"
   },
   "dependencies": {
+    "@vapper/core": "^1.1.1",
     "core-js": "^3.4.4",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
@@ -18,6 +21,7 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "vue-separate-webpack-plugin": "^1.1.1",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
